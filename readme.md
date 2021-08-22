@@ -1,6 +1,6 @@
-# Foobar
+# API
 
-Foobar is a Python library for dealing with word pluralization.
+In this project an API is build, with which the data from the use cases from my portfolio site ai-for-everyone.org can be extacted.
 
 ## Installation
 
