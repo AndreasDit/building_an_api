@@ -18,7 +18,7 @@ externalDocs:
 servers:
 - url: https://virtserver.swaggerhub.com/andreas.ditte/data_from_portfolio_homepage/1.0.0
   description: SwaggerHub API Auto Mocking
-- url: https://petstore.swagger.io/v2
+- url: https://andreasdit.github.io/building_an_api/
 tags:
 - name: pet
   description: Everything about your Pets
