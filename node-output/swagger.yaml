@@ -20,11 +20,11 @@ servers:
   description: SwaggerHub API Auto Mocking
 - url: https://andreasdit.github.io/building_an_api/
 tags:
-- name: pet
-  description: Everything about your Pets
+- name: sonntagsfrage
+  description: Everything about the Sonntagsfrage
   externalDocs:
     description: Find out more
-    url: http://swagger.io
+    url: https://ai-for-everyone.org/archives/51
 - name: store
   description: Access to Petstore orders
 - name: user
