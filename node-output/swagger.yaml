@@ -21,12 +21,15 @@ servers:
 - url: https://andreasdit.github.io/building_an_api/
 tags:
 - name: sonntagsfrage
-  description: Everything about the Sonntagsfrage
+  description: Everything about the Sonntagsfrage use case
   externalDocs:
     description: Find out more
     url: https://ai-for-everyone.org/archives/51
 - name: twitter_monitor
-  description: Access to Petstore orders
+  description: Everything about the Twitter use case
+  externalDocs:
+    description: Find out more
+    url: https://ai-for-everyone.org/archives/2134
 - name: user
   description: Operations about user
   externalDocs:
