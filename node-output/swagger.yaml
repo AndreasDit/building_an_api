@@ -25,7 +25,7 @@ tags:
   externalDocs:
     description: Find out more
     url: https://ai-for-everyone.org/archives/51
-- name: store
+- name: twitter_monitor
   description: Access to Petstore orders
 - name: user
   description: Operations about user
