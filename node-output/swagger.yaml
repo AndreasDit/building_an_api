@@ -30,11 +30,6 @@ tags:
   externalDocs:
     description: Find out more
     url: https://ai-for-everyone.org/archives/2134
-- name: user
-  description: Operations about user
-  externalDocs:
-    description: Find out more about our store
-    url: http://swagger.io
 paths:
   /pet:
     put:
