@@ -2,6 +2,7 @@
 
 In this project an API is build, with which the data from the use cases from my portfolio site ai-for-everyone.org can be extacted.
 
+=======
 ## Usage
 
 Sheck this swagger documentation, to know how to use my API. It is accessible under the following link:
