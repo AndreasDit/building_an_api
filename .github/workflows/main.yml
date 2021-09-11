@@ -11,16 +11,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync-branch:
+  merge-branch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-
-      - name: Merge swaggerhub -> master
-        uses: devmasx/merge-branch
+      - uses: actions/checkout@v2
+      - uses: everlytic/branch-merge@1.1.2
         with:
-          type: now
-          from_branch: swaggerhub
-          target_branch: master
           github_token: ${{ github.token }}
-
+          source_ref: ${{ github.ref }}
+          target_branch: 'master'
+          commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
